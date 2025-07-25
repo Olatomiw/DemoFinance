@@ -29,4 +29,12 @@ public class Transaction {
     private Boolean recurring;
     @NotBlank(message = "Avatar URL is required")
     private String avatar;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
