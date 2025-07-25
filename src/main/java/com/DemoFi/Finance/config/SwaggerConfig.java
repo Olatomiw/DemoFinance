@@ -38,7 +38,7 @@ public class SwaggerConfig {
                 )
                 .servers(List.of(
                         new Server().url("http://localhost:8080").description("Localhost"),
-                        new Server().url("server2").description("Railway")
+                        new Server().url("demofinance-production.up.railway.app").description("Railway")
                 ))
                 .addSecurityItem(new SecurityRequirement().addList("none"));
     }
