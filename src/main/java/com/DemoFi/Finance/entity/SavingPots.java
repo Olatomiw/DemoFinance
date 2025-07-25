@@ -3,11 +3,15 @@ package com.DemoFi.Finance.entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.math.BigDecimal;
 
 @Entity
 @Table(name = "saving_pots")
+@Getter
+@Setter
 public class SavingPots {
 
     @Id
@@ -21,5 +25,5 @@ public class SavingPots {
     @NotNull(message = "Total is required")
     private BigDecimal total;
     @NotBlank(message = "Theme color is required")
-    private String themeColor;
+    private String theme;
 }
