@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: finance_cont
+    image: finance
+    ports:
+      - 8080:8080
+    environment:
+    - DB_PASSWORD=Password2000
+    - DB_URL=jdbc:postgresql://host.docker.internal:5432/finance
+    - DB_USERNAME=postgres

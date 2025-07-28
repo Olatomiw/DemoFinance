@@ -162,7 +162,7 @@ You can deploy this app for free on the following platforms:
 ---
 
 ## 📬 Contact
-For questions, contact [YourName] at `you@example.com`
+For questions, contact [Towolawi Ridwan] at `devtomiwa@gmail.com`
 
 ---
 
